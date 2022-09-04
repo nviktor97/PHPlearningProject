@@ -1,0 +1,103 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+  }
+
+  form {
+    vertical-align: middle;;
+  }
+
+  #nav{
+    background: black;
+  }  
+  
+  #nav ul{
+    
+    text-align: center;
+    
+  } 
+  
+  #nav ul li{
+    display: inline-block;
+  }
+  
+  #nav a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #nav a:hover{
+    background: green;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  #cont {
+
+    position: absolute;
+
+
+    left: 50%;
+    margin-left: -150px;
+
+    border-color: black;
+  border: 2px solid black;
+  
+   
+    
+  }
+
+  #myform{
+    border-radius: 5px;
+    width: fit-content;
+    background-color: hwb(240 87% 3%);
+    padding: 20px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  .col-75 {
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+  .error {color: #FF0000;}
+  input[type=checkbox] {
+              vertical-align: middle;
+              position: relative;
+              bottom: 1px;
+          }
+  
